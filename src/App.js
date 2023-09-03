@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+    <div className='container'>
+    <div className='randomNum'>
+    <p>Random Number:  <span>5</span> </p>
+    </div>
+    <div className='numContainer'>
+     <div>
+      <p>Min:</p>
+      <input type="number" />
+     
+     </div>
+     <div>
+      <p>Max:</p>
+      <input type="number" />
+     
+     </div>
+    </div>
+    <button>Get Random Number</button>
+      </div>
+
     </div>
   );
 }

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:sans-serif;
+}
+
+.app{
+    width: 100%;
+    min-height: 100vh;
+    background: #d95a5a;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+.app .container{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #92857d;
+
+}
+
+.app .container .randomNum{
+    background: #b1944a;
+    padding: 20PX;
+    min-width: 100%;
+}
+
+.app .container .randomNum p span{
+    color: red;
+    font-weight: bold;
+}
+
+.app .numContainer {
+    display:flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    min-width: 100px;
+}
+ .app .container div{
+    width: 100%;
+    max-width: 42%;
+ }
+
+ .app .numContainer div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background:#b1944a;
+    color: red;
+    font-weight: bold;
+ }
+
+ .app .container button{
+    align-items: flex-end;
+    border: none;
+    outline: none;
+    background: #b1944a;
+    color: white;
+    font-weight: bold;
+    padding: 14PX;
+    width: 100%;
+    font-size: 20PX;
+    cursor: pointer;
+    transition: 4s;
+ }
+
+ .app .container button:hover{
+    background-color: black;
+    color: #FAF0D7;
+ }
